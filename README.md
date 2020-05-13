@@ -1,8 +1,14 @@
-# mern-stack-items
-CRUD utilizando MERN Stack
+# mern-stack
+CRUD utilizando MERN Stack (MongoDB, Express, ReactJs y NodeJs).
 
-Previo a intentar correr el sistema, verificar tener corriendo mongodb: systemctl status mongodb
+0. Antes de todo, verificar si mongodb esta corriendo: 
+  systemctl status mongodb
 
-Frontend: Para correr el servidor front, correr webpack: npm run webpack
+1. Instalar mediante: 
+  npm install
 
-Backend: Para correr el servidor back, correr node: npm run dev
+2. Levantar servidor frontend:
+  => correr webpack: "npm run webpack"
+
+3. Levantar servidor backend:
+  => correr node: "npm run dev" o "npm start"
